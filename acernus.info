@@ -1,0 +1,32 @@
+name = acernus
+description = Acernus Air theme for Drupal 7
+screenshot = screenshot.jpg
+core = "7.x"
+engine = phptemplate
+
+regions[page_top] = Page top
+regions[header] = Header
+regions[highlight] = Highlight
+regions[help] = Help
+regions[content] = Content
+regions[footer_top] = Footer top
+regions[footer_bottom] = Footer bottom
+regions[page_bottom] = Page bottom
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = search
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+stylesheets[all][] = css/reset-min.css
+stylesheets[all][] = css/base-min.css
+stylesheets[all][] = css/style.css
+stylesheets[print][] = css/print.css
+
+settings[wireframe_mode] = 0
+settings[clear_registry] = 0
