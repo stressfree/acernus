@@ -28,5 +28,7 @@ stylesheets[all][] = css/base-min.css
 stylesheets[all][] = css/style.css
 stylesheets[print][] = css/print.css
 
+scripts[] = js/script.js
+
 settings[wireframe_mode] = 0
 settings[clear_registry] = 0
