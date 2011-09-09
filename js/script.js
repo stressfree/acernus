@@ -62,7 +62,7 @@
          }
          counter++;
       });    
-      setTimeout("jQuery.cycleImages()", 30000);  
+      setTimeout("jQuery.cycleImages()", 20000);  
    }
 })(jQuery);
 
@@ -71,4 +71,4 @@ var brochureThumbnails = new Array();
 var brochureLink = new Array();
 var imageCounter = 0;
 
-setTimeout("jQuery.cycleImages()", 30000); 
+setTimeout("jQuery.cycleImages()", 20000); 
