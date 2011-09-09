@@ -2,7 +2,7 @@
 
   Drupal.behaviors.colorBox = {
     attach: function() {
-        $('a.lightbox').colorbox();
+        $('a.lightbox').colorbox({maxWidth: '90%', scalePhotos: true});
     }
   };  
   
