@@ -9,11 +9,19 @@
   Drupal.behaviors.cycleImages = {
     attach: function() {
         // Preload the thumbnails
+        var x = 0;
         for(var i in brochureLarge) {
-            jQuery.preLoadImages(brochureLarge[i]);
+        	setTimeout(function(){
+        		jQuery.preLoadImages(brochureLarge[i]);
+        	}, x * 8000);
+        	x++;
         }
+        x = 0;
         for(var i in brochureThumbnails) {
-            jQuery.preLoadImages(brochureThumbnails[i]);
+        	setTimeout(function(){
+        		jQuery.preLoadImages(brochureThumbnails[i]);
+        	}, x * 8000);
+        	x++;
         }
     }
   };
