@@ -2,3 +2,15 @@ Acernus Air Drupal 7 theme
 ==========================
 
 This is the Drupal 7 theme for the Acernus Air website (http://www.acernusair.com).
+
+Recommended modules
+-------------------
+
+- colorbox
+- google_analytics
+- imagecache_actions
+- pathauto
+- site_verify
+- token
+- wysiwyg
+- xmlsitemap

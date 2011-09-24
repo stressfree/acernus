@@ -1,3 +1,5 @@
+<div id="body-wrapper">
+
 <div id="body-container">
 
 <div id="page" class="<?php print $classes; ?>"<?php print $attributes; ?>>
@@ -125,6 +127,8 @@
       <?php print render($page['footer_bottom']); ?>
     <?php endif; ?>
   </div>
+
+</div>
 
 </div>
 

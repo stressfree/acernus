@@ -1,0 +1,42 @@
+html, body {
+	font-family: "Times New Roman", Times, serif;
+	color: #000;
+	background: none;
+}
+
+.tabs {
+	display: none;
+}
+
+
+#body-wrapper, #body-container, #header, #footer, #main, #content,
+#main-text-body, #main-text-body div.wrapper, #main-text-footer {
+	background: none;
+}
+
+#logo {
+	width: 984px;
+	text-align: center;
+}
+
+#body-container {
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+#header {
+	height: 280px;
+}
+#header-region {
+	top: 210px;
+	border-top: 1px solid #ccc;
+}
+
+#navigation, .region-footer-top {
+	display: none;
+}
+
+#footer {
+	height: 100px;
+	font-size: 0.8em;
+}

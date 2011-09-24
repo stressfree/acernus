@@ -80,7 +80,7 @@ html, body {
 }
 
 #footer {
-    clear: both;
+	clear: both;
 	height: 160px;
 	font-size: 0.8em;
 	background: url('../images/footer.jpg') top left no-repeat #354c62;	
@@ -94,7 +94,7 @@ html, body {
 }
 #footer div.region-footer-bottom {
     padding-top: 15px;
-	margin-left: 15px;
+    margin-left: 15px;
 }
 #footer div.region-footer-bottom, #footer div.region-footer-bottom a {
     color: #7b8b8d;
